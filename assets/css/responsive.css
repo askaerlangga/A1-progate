@@ -1,0 +1,20 @@
+@media(max-width: 1000px) {
+    .job-flex-column {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .job-flex-row {
+        flex: 50%;
+    }
+
+    .main-banner {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 670px) {
+    .job-flex-column {
+        flex-direction: column;
+    }
+}
