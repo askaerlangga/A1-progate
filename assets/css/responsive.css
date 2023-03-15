@@ -1,4 +1,13 @@
 @media(max-width: 1000px) {
+    .menu ul {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    /* Body */
     .job-flex-column {
         flex-wrap: wrap;
         gap: 0;
@@ -6,6 +15,7 @@
 
     .job-flex-row {
         flex: 50%;
+        padding: 20px;
     }
 
     .main-banner {
@@ -14,6 +24,8 @@
 }
 
 @media(max-width: 670px) {
+
+    /* Body */
     .job-flex-column {
         flex-direction: column;
     }
