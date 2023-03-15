@@ -29,4 +29,8 @@
     .job-flex-column {
         flex-direction: column;
     }
+
+    .btn-explore-more{
+        width: 50%;
+    }
 }

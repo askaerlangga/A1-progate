@@ -148,7 +148,7 @@ body {
 
 .job-categories {
     text-align: center;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     max-width: 1200px;
     margin: auto;
     margin-bottom: 20px;
@@ -206,6 +206,7 @@ body {
 }
 
 .btn-explore-more {
+    margin: auto;
     margin-top: 20px;
     padding: 10px;
     background-color: #d2afff;
@@ -213,6 +214,7 @@ body {
     color: white;
     display: inline-block;
     cursor: pointer;
+    width: 200px;
 }
 
 .btn-explore-more:hover {
@@ -223,7 +225,7 @@ body {
     display: flex;
     max-width: 1200px;
     margin: auto;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     margin-bottom: 20px;
 }
 
