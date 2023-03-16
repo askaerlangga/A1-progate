@@ -39,7 +39,7 @@
 }
 
 .menu li a:hover {
-    color: rgb(165, 163, 32);
+    color: rgb(228, 190, 88);
 }
 
 .sticky .menu li a:hover {
@@ -62,7 +62,7 @@
 }
 
 .menu .btn-Login:hover {
-    background: rgb(165, 163, 32);
+    background: rgb(228, 190, 88);
     color: #ffffff;
 }
 
@@ -179,6 +179,7 @@ header ul li a:hover {
     width: 100%;
     margin-bottom: 80px;
     background-color: azure;
+    padding-top: 20px;
 }
 
 .main-head {
@@ -186,6 +187,7 @@ header ul li a:hover {
     justify-content: space-around;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 div .head {
