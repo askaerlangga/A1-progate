@@ -33,38 +33,41 @@
     </header>
     <main>
         <div class="main">
-            <div class="main-head">
-                <div class="head">
-                    <h1>Daftar & Apply Gratis. <br><span>4000+ Loker Tiap Hari!</span></h1>
-                    <p>Jangan lewatkan kesempatan untuk mendapatkan pekerjaan impianmu! Daftar dan apply sekarang secara
-                        gratis di situs loker
-                        terpercaya.</p>
+            <div class="banner-head">
+                <div class="main-head">
+                    <div class="head">
+                        <h1>Daftar & Apply Gratis. <br><span>4000+ Loker Tiap Hari!</span></h1>
+                        <p>Jangan lewatkan kesempatan untuk mendapatkan pekerjaan impianmu! Daftar dan apply sekarang
+                            secara
+                            gratis di situs loker
+                            terpercaya.</p>
 
-                    <div class="filters">
-                        <div class="filter">
-                            <div class="filter-lokasi">
-                                <label for="nama">Ketik Lokasi Anda :</label>
-                                <input type="text" placeholder="Lokasi">
+                        <div class="filters">
+                            <div class="filter">
+                                <div class="filter-lokasi">
+                                    <label for="nama">Ketik Lokasi Anda :</label>
+                                    <input type="text" placeholder="Lokasi">
+                                </div>
+                                <div class="filter-jurusan">
+                                    <label for="nama">Ketik Jurusan Anda :</label>
+                                    <input type="text" placeholder="Jurusan">
+                                </div>
+                                <button type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
                             </div>
-                            <div class="filter-jurusan">
-                                <label for="nama">Ketik Jurusan Anda :</label>
-                                <input type="text" placeholder="Jurusan">
-                            </div>
-                            <button type="submit">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
                         </div>
-                    </div>
 
-                    <div class="keyword">
-                        <h3>Kata Kunci Pekerjaan yang Sedang Tren :</h3>
-                        <a href="#">Web Dev</a>
-                        <a href="#">Network Engineer</a>
-                        <a href="#">UI/UX Design</a>
-                    </div>
+                        <div class="keyword">
+                            <h3>Kata Kunci Pekerjaan yang Sedang Tren :</h3>
+                            <a href="#">Web Dev</a>
+                            <a href="#">Network Engineer</a>
+                            <a href="#">UI/UX Design</a>
+                        </div>
 
+                    </div>
+                    <img src="assets/images/woman.png">
                 </div>
-                <img src="assets/images/woman.png">
             </div>
 
             <div class="head-partner">
@@ -146,6 +149,40 @@
                         efisien. Jangan ragu untuk
                         bergabung dengan kami dan memulai pencarian pekerjaan Anda hari ini!
                     </p>
+                </div>
+            </div>
+        </div>
+        <div class="faq-wrapper">
+            <div class="faq-form-container">
+                <div class="faq-heading">
+                    <h2>Ada pertanyaan mengenai lowongan?</h2>
+                    <h4>Silakan cek FAQ untuk mencari jawaban pertanyaan umum</h4>
+                </div>
+                <span class="tombol-faq">FAQ</span>
+            </div>
+        </div>
+        <div class="contact-form">
+            <div class="faq-form-container">
+                <div class="form">
+                    <div class="form-buletin">
+                        <h2>Berlangganan di buletin kami!</h2>
+                        <h4>Langganan untuk mendapatkan informasi menarik tentang lowongan yang kami kurasi!</h4>
+                        <label for="nama"></label>
+                        <input type="text" name="nama" placeholder="Nama" required>
+                        <label for="email"></label>
+                        <input type="text" name="email" placeholder="Email" required>
+                        <label for="buletin-tipe-lowongan-dropdown">
+                            <p>Topik buletin pilihan: </p>
+                        </label>
+                        <select class="buletin-dropdown" name="buletin-tipe-lowongan-dropdown">
+                            <option value="pilih-semua">Pilih semua tipe lowongan</option>
+                            <option value="pengembangan-aplikasi">Pengembangan aplikasi</option>
+                            <option value="pendidikan">Pendidikan</option>
+                            <option value="telekomunikasi">Telekomunikasi</option>
+                            <option value="manufaktur">Manufaktur</option>
+                        </select>
+                        <input class="buletin-submit" type="submit" value="Kirim" />
+                    </div>
                 </div>
             </div>
         </div>

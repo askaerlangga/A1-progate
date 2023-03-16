@@ -51,10 +51,15 @@
         flex-direction: column;
     }
 
-    .keyword{
+    .keyword {
         margin: auto;
         font-size: 15px;
         padding-left: 20px;
+    }
+
+    /* Form */
+    .contact-form {
+        padding-bottom: 75px
     }
 }
 
@@ -114,5 +119,35 @@
 
     .btn-explore-more {
         width: 50%;
+    }
+
+    /* Form */
+    .message-wrapper {
+        text-align: center;
+        font-size: small;
+    }
+
+    .message-wrapper h2,
+    h4 {
+        margin: 0 auto;
+    }
+
+    .contact-form {
+        text-align: center;
+        padding: 0px 15px 75px 15px;
+        margin: 0 auto;
+    }
+
+    .form-buletin input {
+        width: 300px;
+        display: inline;
+    }
+
+    .buletin-dropdown {
+        display: inline-block;
+    }
+
+    .buletin-submit {
+        display: block;
     }
 }
