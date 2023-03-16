@@ -1,10 +1,37 @@
 @media(max-width: 1000px) {
+
+    /* Header */
     .menu ul {
         display: none;
     }
 
     .menu-btn {
         display: block;
+    }
+
+    /* Banner */
+    .main-head img {
+        display: none;
+    }
+
+    .main-head div h1 {
+        font-size: 50px;
+    }
+
+    .main-head div p {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .filters .filter {
+        display: flex;
+        justify-content: center;
+        scale: 100%;
+    }
+
+    .partner img {
+        width: 100px;
     }
 
     /* Body */
@@ -25,12 +52,59 @@
 
 @media(max-width: 670px) {
 
+    /* Banner */
+    .filters .filter {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .filter .filter-lokasi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filter .filter-jurusan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filter-lokasi label {
+        display: flex;
+        align-self: flex-start;
+        padding-left: 60px;
+    }
+
+    .filter-jurusan label {
+        display: flex;
+        align-self: flex-start;
+        padding-left: 60px;
+        padding-top: 20px;
+    }
+
+    .filter input {
+        width: 80%;
+    }
+
+    .filter button {
+        display: flex;
+        align-self: center;
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    .partner img {
+        width: 80px;
+    }
+
     /* Body */
     .job-flex-column {
         flex-direction: column;
     }
 
-    .btn-explore-more{
+    .btn-explore-more {
         width: 50%;
     }
 }

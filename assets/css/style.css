@@ -115,7 +115,7 @@ header {
     position: -webkit-sticky;
     z-index: 1;
     border-bottom: 1px solid #000000;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
 }
 
@@ -140,6 +140,182 @@ header ul li a {
 header ul li a:hover {
     text-decoration: double;
 }
+
+/* ====CONFIG CSS END==== */
+
+/* ====CONFIG ANIMATION START==== */
+
+@keyframes example {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: yellow;
+    }
+
+    25% {
+        color: green;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    70% {
+        color: yellow;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+/* ====CONFIG ANIMATION END==== */
+
+
+
+.main {
+    width: 100%;
+    margin-bottom: 80px;
+    background-color: azure;
+}
+
+.main-head {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+div .head {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: sans-serif;
+}
+
+.main-head div h1 {
+    font-size: 70px;
+    color: #5b95ac;
+}
+
+.main-head div p {
+    text-align: center;
+}
+
+.head span {
+    color: #033042;
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+.main-head img {
+    width: 400px;
+}
+
+
+
+.filters .filter {
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+}
+
+.filter .filter-lokasi {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter .filter-jurusan {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter input {
+    border-style: 1px;
+    border-color: #033042;
+    border-style: solid;
+    outline: none;
+    font-size: 13px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.filter button {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    background-color: #033042;
+    border-style: none;
+    border-radius: 10px;
+}
+
+button i {
+    scale: 150%;
+    color: white;
+}
+
+.filter button {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    background-color: #033042;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.keyword {
+    display: flex;
+    padding-top: 50px;
+}
+
+.keyword a {
+    padding-left: 15px;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #033042;
+}
+
+div h1 {
+    text-align: center;
+}
+
+div .head-partner {
+    padding-top: 50px;
+    color: #033042;
+    background-color: white;
+}
+
+div .partner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.partner img {
+    width: 150px;
+}
+
+
+
+
+/* ====MAIN CSS END==== */
 
 /* Body */
 body {
@@ -171,7 +347,7 @@ body {
 
 .jobs {
     border-radius: 20px;
-    border: 3px solid #e6d7ff;
+    border: 3px solid rgb(228, 190, 88);
     max-width: 300px;
     margin: auto;
     padding: 20px;
@@ -180,25 +356,25 @@ body {
 }
 
 .jobs:hover {
-    background-color: #e6d7ff;
+    background-color: rgb(228, 190, 88);
     cursor: pointer;
     transition: 0.3s;
 }
 
 .jobs i {
     padding: 15px;
-    background-color: #d2afff;
+    background-color: #033042;
     color: white;
     border-radius: 5px;
     font-size: 20px;
 }
 
-.jobs p{
+.jobs p {
     margin: 15px 0;
 }
 
 .job-available {
-    background-color: #d2afff;
+    background-color: #033042;
     color: white;
     display: inline-block;
     padding: 5px;
@@ -209,7 +385,7 @@ body {
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-    background-color: #d2afff;
+    background-color: #033042;
     border-radius: 5px;
     color: white;
     display: inline-block;
@@ -234,23 +410,24 @@ body {
     box-sizing: border-box;
     padding: 20px;
 }
-.main-banner-right{
+
+.main-banner-right {
     flex: 50%;
     box-sizing: border-box;
     padding: 20px;
 }
 
-.main-banner-right h3{
+.main-banner-right h3 {
     font-size: 25px;
     margin-top: 0;
     margin-bottom: 25px;
 }
 
-.main-banner-right p{
+.main-banner-right p {
     margin-bottom: 15px;
 }
 
-.main-banner-left img{
+.main-banner-left img {
     object-fit: cover;
     width: 100%;
     height: 100%;
