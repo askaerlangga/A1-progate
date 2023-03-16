@@ -61,6 +61,20 @@
     .contact-form {
         padding-bottom: 75px
     }
+
+    /* Footer */
+    .list {
+        width: 50%;
+    }
+
+    .list-category {
+        margin: 0 70px;
+
+    }
+
+    footer p {
+        font-size: 17px;
+    }
 }
 
 @media(max-width: 670px) {
@@ -149,5 +163,19 @@
 
     .buletin-submit {
         display: block;
+    }
+
+    /* Footer */
+    .list {
+        width: 100%;
+    }
+
+    .list-category {
+        margin: 0 150px;
+
+    }
+
+    footer p {
+        font-size: 18px;
     }
 }
